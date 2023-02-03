@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#projects{
+    width: 85%;
+    margin:auto;
+}
+.myphoto{
+    width: 70%;
+    margin: auto;
+    border-radius: 40% 60% 74% 26% / 55% 46% 54% 45%;
+}
+
+#home{
+    height: 100vh;
+    background-image: linear-gradient(to right,#b7cbf0 ,#a699c2,#cdb3e5,#bec9c3,#afc690);
+}
+
+#aboutme{
+    background-image: url("../images/bg1.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#skills{
+    background-image: linear-gradient(to left,#b7cbf0 ,#a699c2,#cdb3e5);
+
+}
+
+#contact{
+    background-image: linear-gradient(-45deg,#b7cbf0 ,#a699c2,#cdb3e5,#bec9c3,#afc690);
+
+}
+.aboutmeimg{
+    width: 60%;
+}
+.aboutmecontent{
+    width: 50%;
+}
+
+.progress-bar {
+    background-color:#facdcc  !important;
+}
+.progress{
+    background-color: white !important;
+    --bs-progress-height:1.5rem !important;
+    border-radius: 20px !important;
+}
+
+.contactimg{
+    width: 40%;
+}
+
+
+/* CSS */
+.resumebtn {
+  background-color: white;
+  border: 0;
+  border-radius: 56px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.resumebtn:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.resumebtn:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+
+.contactform{
+    background-color: #b7cbf0;
+    border-radius: 2%;
+}
+
+.mainheading{
+    font-size: 4rem;
+}
+.subclasses{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
